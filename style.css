@@ -1,0 +1,46 @@
+body{
+    margin: 0;
+    padding: 0;
+    display: flex;
+    align-items: center;
+    justify-content:center;
+    height: 100vh;
+    background: url("bgimg.webp") no-repeat center fixed;
+    background-size:cover;
+}
+.login-container{
+    background-color:aliceblue;
+    padding: 20px;
+    border-radius: 10px;
+    width: 300px;
+}
+.login-container h2{
+    text-align:center;
+    margin-bottom: 20px;
+}
+.form-items{
+    margin-bottom: 20px;
+}
+.form-items label{
+    display: block;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+.form-items input{
+    padding: 8px;
+    width: 100%;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+}
+.form-items button{
+    width: 100%;
+    color:aliceblue;
+    background-color:#007bff;
+    padding: 10px;
+    cursor: pointer;
+    border: none;
+    border-radius: 3px;
+}
+.form-items button:hover{
+   background-color: blue;
+}
